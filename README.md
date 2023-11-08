@@ -1,4 +1,4 @@
-# -HW-FKIK-Editor-2023
+# FKIK-Editor-2023
 Implemented forward kinematics to calculate the position and orientation of joints to read BVH motion capture data.
 
 <img src="https://github.com/AkikozZM/IK-FK-Editor-Project/assets/113269465/a9a66887-6a1e-4237-a29f-2e27e39600fd.gif" width="482.5" height="350.5">
