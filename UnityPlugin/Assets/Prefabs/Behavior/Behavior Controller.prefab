@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5313528507218366812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5313528507218366814}
+  - component: {fileID: 5313528507218366815}
+  m_Layer: 0
+  m_Name: Behavior Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5313528507218366814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313528507218366812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5313528507218366815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5313528507218366812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e79eaa17eece8744aa5d396e7e88e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_behaviorType: 0
+  m_actorList: []
+  m_gain:
+    gMaxSpeed: 1000
+    gMaxAngularSpeed: 200
+    gMaxForce: 2000
+    gMaxTorque: 2000
+    gKNeighborhood: 500
+    gOriKv: 32
+    gOriKp: 256
+    gVelKv: 10
+    gAgentRadius: 80
+    gMass: 1
+    gIntertia: 1
+    KArrival: 1
+    KDepartucre: 12000
+    KNoise: 15
+    KWander: 80
+    KAvoid: 600
+    TAvoid: 1000
+    KSeparation: 12000
+    KAlignment: 1
+    KCohesion: 1
+    leaderFollowDistance: 200
+  m_target: {fileID: 0}
+  m_leader: {fileID: 0}
+  m_leaderIndicator: {fileID: 0}
+  m_obstacleNum: 25
+  m_obstaclePrefab: {fileID: 0}
+  m_obstaclePosMinMax: {x: -100, y: 100}
+  m_obstacleRadiusMinMax: {x: 10, y: 20}
+  m_environmentLayer:
+    serializedVersion: 2
+    m_Bits: 0
